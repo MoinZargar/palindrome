@@ -11,7 +11,8 @@ function palindrome(s) {
   }
   return true;
 }
-var s = "madm";
+var prompt = require('prompt-sync')();
+var s = prompt('Enter a string ');
 var flag = palindrome(s);
 if (flag == true) {
   console.log("string is palindrome");
