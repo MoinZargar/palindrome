@@ -11,7 +11,7 @@ function palindrome(s) {
   }
   return true;
 }
-var s = "madm";
+var s = prompt("Enter a string");
 var flag = palindrome(s);
 if (flag == true) {
   console.log("string is palindrome");
